@@ -1,10 +1,10 @@
-import React from "react";
+import React, { PureComponent } from "react";
 import BookList from "./BookList";
 
 const booksData = [
-  { title: "Book 1", author: "Author 1" },
-  { title: "Book 2", author: "Author 2" },
-  { title: "Book 3", author: "Author 3" },
+  { title: "Lord of the Rings", author: "J.R.R.Tolkien" },
+  { title: "All Quiet on the Western Front", author: "E. M. Remarque" },
+  { title: "Harry Potter", author: "J. K. Rowling" },
 ];
 
 function App() {
